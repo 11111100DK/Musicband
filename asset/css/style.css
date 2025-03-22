@@ -189,32 +189,41 @@ html {
 #slider {
     position: relative;
     margin-top: 46px;
-    padding-top: 50%;
-    background: url('/asset/img/slider/1.png') top center / cover no-repeat;
 }
 
-#slider .text-content {
+#slider {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  #slider img {
+    width: 100%;
+    display: block;
+  }
+  
+  #slider .slide-item {
+    position: relative;
+  }
+  
+  #slider .text-content {
     position: absolute;
-    bottom: 47px;
-    color: aliceblue;
+    bottom: 200px;
     left: 50%;
     transform: translateX(-50%);
+    color: aliceblue;
     text-align: center;
-}
-
-#slider .text-heading {
+  }
+  
+  #slider .text-heading {
     font-weight: 600;
-    font-size: 30px;
-
-}
-
-#slider .text-decription {
+    font-size: 60px;
+  }
+  
+  #slider .text-decription {
     font-size: 15px;
     margin-top: 25px;
-}
-
-
-
+  }
+  
 #content .content-section {
     width: 800px;
     max-width: 100%;

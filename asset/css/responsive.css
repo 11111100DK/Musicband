@@ -4,6 +4,16 @@
 
 /* Tablet & Mobile */
 @media (max-width: 63.9375em) {
+    #slider .text-content {
+
+        bottom: 20px;
+
+      }
+      #slider .text-heading {
+        font-weight: 600;
+        font-size: 30px;
+      }
+      
     /* .btn {
         padding: 15px 16px;
     }
